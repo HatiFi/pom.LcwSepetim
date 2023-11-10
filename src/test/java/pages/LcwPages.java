@@ -7,6 +7,7 @@ import utilities.Driver;
 
 public class LcwPages {
     public LcwPages(){
+
         PageFactory.initElements(Driver.getDriver(),this);
 
     }
